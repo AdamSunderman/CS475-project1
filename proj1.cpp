@@ -38,6 +38,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 #include <string.h>
 #include <omp.h>
 #include "height.h"
@@ -55,7 +56,7 @@ int main(int argc, char const *argv[]){
 		}
 	}
 	else{
-		printf("%s\n", "Sorry OpenMP is not supported here.");
+		fprintf(stderr, "%s\n", "Sorry OpenMP is not supported here.");
 		return 1;
 	}
 	
@@ -68,6 +69,9 @@ int main(int argc, char const *argv[]){
 	long int iv = 0;
 	float currHeight = 0; 
 	float currVolume = 0;
+
+	// Start time.
+	double timeIn = omp_get_wtime();
 
 	#pragma omp parallel for reduction(+:volume), default(none), schedule(dynamic), private(iu, iv, currHeight, currVolume), shared(ftArea, i)
 	for(i = 0; i < NUMNODES*NUMNODES; i++){
@@ -101,6 +105,16 @@ int main(int argc, char const *argv[]){
 		}
 		volume += currVolume;
 	}
-	printf("%f\n", volume);
+
+	// End time.
+	double timeOut = omp_get_wtime();
+	double diff = (timeOut-timeIn);
+
+	FILE * outfile = fopen("results.txt","a");
+	if(outfile != NULL){
+		fprintf(outfile, "The volume is %.8f, using a %d node subdivision and %d threads.\nThe calculation took %10.8lf microseconds\n\n", volume,NUMNODES,NUMT,diff);
+		fclose(outfile);
+	}
+	
 	return 0;
 }
