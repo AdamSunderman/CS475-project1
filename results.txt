@@ -1,6 +1,96 @@
-The volume is 25.31246185, using a 512 node subdivision and 1 threads.
- The calculation took       0.04 microseconds
+The volume is 25.31448364, using a 64 node subdivision and 1 threads.
+The calculation took 0.00059489 microseconds
+
+The volume is 25.31295776, using a 128 node subdivision and 1 threads.
+The calculation took 0.00501832 microseconds
+
+The volume is 25.31258965, using a 256 node subdivision and 1 threads.
+The calculation took 0.00914235 microseconds
 
 The volume is 25.31246185, using a 512 node subdivision and 1 threads.
- The calculation took 0.03770945 microseconds
+The calculation took 0.06150179 microseconds
+
+The volume is 25.31093788, using a 1024 node subdivision and 1 threads.
+The calculation took 0.15474213 microseconds
+
+The volume is 25.37254906, using a 2048 node subdivision and 1 threads.
+The calculation took 0.61737670 microseconds
+
+The volume is 25.30459404, using a 4096 node subdivision and 1 threads.
+The calculation took 2.34120601 microseconds
+
+The volume is 16.85798836, using a 8192 node subdivision and 1 threads.
+The calculation took 9.24617878 microseconds
+
+The volume is 25.31447983, using a 64 node subdivision and 2 threads.
+The calculation took 0.00191097 microseconds
+
+The volume is 25.31301308, using a 128 node subdivision and 2 threads.
+The calculation took 0.00360984 microseconds
+
+The volume is 25.31263733, using a 256 node subdivision and 2 threads.
+The calculation took 0.01366793 microseconds
+
+The volume is 25.31246376, using a 512 node subdivision and 2 threads.
+The calculation took 0.04216749 microseconds
+
+The volume is 25.31213951, using a 1024 node subdivision and 2 threads.
+The calculation took 0.09699866 microseconds
+
+The volume is 25.31449890, using a 2048 node subdivision and 2 threads.
+The calculation took 0.34286001 microseconds
+
+The volume is 25.28560257, using a 4096 node subdivision and 2 threads.
+The calculation took 1.30306770 microseconds
+
+The volume is 28.15437508, using a 8192 node subdivision and 2 threads.
+The calculation took 4.95871022 microseconds
+
+The volume is 25.31448555, using a 64 node subdivision and 4 threads.
+The calculation took 0.00127805 microseconds
+
+The volume is 25.31297684, using a 128 node subdivision and 4 threads.
+The calculation took 0.00254561 microseconds
+
+The volume is 25.31260681, using a 256 node subdivision and 4 threads.
+The calculation took 0.00417230 microseconds
+
+The volume is 25.31249237, using a 512 node subdivision and 4 threads.
+The calculation took 0.02972373 microseconds
+
+The volume is 25.31258392, using a 1024 node subdivision and 4 threads.
+The calculation took 0.06342154 microseconds
+
+The volume is 25.31112289, using a 2048 node subdivision and 4 threads.
+The calculation took 0.20251504 microseconds
+
+The volume is 25.37297058, using a 4096 node subdivision and 4 threads.
+The calculation took 0.69240501 microseconds
+
+The volume is 25.30442810, using a 8192 node subdivision and 4 threads.
+The calculation took 2.76328271 microseconds
+
+The volume is 25.31448936, using a 64 node subdivision and 8 threads.
+The calculation took 0.00170496 microseconds
+
+The volume is 25.31298447, using a 128 node subdivision and 8 threads.
+The calculation took 0.00291083 microseconds
+
+The volume is 25.31262589, using a 256 node subdivision and 8 threads.
+The calculation took 0.00678983 microseconds
+
+The volume is 25.31255150, using a 512 node subdivision and 8 threads.
+The calculation took 0.01525050 microseconds
+
+The volume is 25.31248856, using a 1024 node subdivision and 8 threads.
+The calculation took 0.04376298 microseconds
+
+The volume is 25.31175995, using a 2048 node subdivision and 8 threads.
+The calculation took 0.10769383 microseconds
+
+The volume is 25.31445312, using a 4096 node subdivision and 8 threads.
+The calculation took 0.38322112 microseconds
+
+The volume is 25.28614044, using a 8192 node subdivision and 8 threads.
+The calculation took 1.45808046 microseconds
 
